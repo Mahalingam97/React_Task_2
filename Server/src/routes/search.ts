@@ -1,4 +1,4 @@
-import express ,{ Request,Response, NextFunction, response } from "express";
+import express ,{ Request,Response, NextFunction } from "express";
 
 const router = express.Router(); 
 var datas=require('./fruitList.json');
