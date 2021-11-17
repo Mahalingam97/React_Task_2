@@ -1,7 +1,7 @@
 import React from "react";
 import "./assests/FruitResultRow.css";
 
-export default function FruitResultsRow(props) {
+export default function FruitResultRow(props) {
     const codePointHex = props.symbol.codePointAt(0).toString(16);
     const src = `//cdn.jsdelivr.net/emojione/assets/png/${codePointHex}.png`;
     return (
