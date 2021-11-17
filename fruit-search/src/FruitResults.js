@@ -21,11 +21,11 @@ export default class FruitResults extends PureComponent {
     const fruitData=this.props.fruitData;
     return (
       <div className="component-fruit-results">
-        {fruitData.map(fruitData => (
+        {fruitData.map(Data=> (
           <FruitResultRow
-            key={fruitData.title}
-            symbol={fruitData.symbol}
-            title={fruitData.title}
+            key={ Data.title}
+            symbol={Data.symbol}
+            title={Data.title}
           />
         ))}
       </div>
